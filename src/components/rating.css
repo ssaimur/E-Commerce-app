@@ -1,0 +1,17 @@
+.stars-comp {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.stars-comp span {
+  color: #ffb900;
+  font-size: 1rem;
+  margin-right: 00.25rem;
+}
+
+.stars-comp p {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+  color: gray;
+}

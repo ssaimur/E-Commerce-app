@@ -1,0 +1,51 @@
+.featured {
+  /* margin-top: -3.5rem; */
+  height: auto;
+  background-color: antiquewhite;
+  padding-bottom: 50px;
+}
+.featured-title {
+  padding-top: 4rem;
+  text-align: center;
+}
+.underline {
+  height: 3px;
+  width: 250px;
+  margin: 20px auto;
+  background-color: darkslategray;
+}
+
+.featured-title h2 {
+  color: darkslategray;
+}
+
+.featured-products {
+  /* width: 90%; */
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1170px;
+  margin: 4rem auto;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.all-btn {
+  display: block;
+  background-color: #ab7b60;
+  color: antiquewhite;
+  text-transform: uppercase;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.all-btn:hover {
+  background-color: #775340;
+}
+
+@media (min-width: 576px) {
+  .feature {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+}

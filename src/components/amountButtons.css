@@ -1,0 +1,31 @@
+.amount-buttons {
+  display: grid;
+  width: auto;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.amount-buttons h2 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.amount-buttons button {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 1rem 0;
+  font-size: 1rem;
+  width: 2rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .amount-buttons button:focus {
+  outline: none;
+} */
+/* .amount-buttons h2 {
+  margin-bottom: 0;
+} */

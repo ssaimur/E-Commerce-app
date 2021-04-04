@@ -1,0 +1,24 @@
+.cart-content {
+  padding: 5rem 0;
+}
+.cart-content-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.link-button {
+  font-size: 13px;
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  background: #ab7b60;
+  color: #fff;
+  border-radius: 0.25rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.clear-button {
+  background-color: hsl(360, 67%, 44%);
+}

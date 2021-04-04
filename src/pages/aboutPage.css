@@ -1,0 +1,39 @@
+.section {
+  padding: 5rem 0;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.page {
+  min-height: calc(100vh - (20vh + 10rem));
+  display: grid;
+  gap: 4rem;
+}
+
+.page img {
+  width: 100%;
+  display: block;
+  border-radius: 0.25rem;
+  height: 500px;
+  object-fit: cover;
+}
+.page p {
+  line-height: 2;
+  max-width: 45em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: gray;
+}
+.page-title {
+  text-align: left;
+}
+.underline {
+  margin-left: 0;
+}
+@media (min-width: 992px) {
+  .page {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,133 @@
+.color {
+  height: 10px;
+  width: 10px;
+}
+
+.form-item {
+  margin-bottom: 1rem;
+}
+
+.form-item h5 {
+  margin-bottom: 0.5rem;
+}
+
+.form-search input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  background-color: aquamarine;
+}
+
+.form-search input::placeholder {
+  text-transform: capitalize;
+}
+
+.categories button {
+  display: block;
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  text-transform: capitalize;
+  color: darkslategrey;
+  font-size: 0.9rem;
+}
+
+.categories .active {
+  border-color: darkslategrey;
+}
+
+.companies select {
+  padding: 0.25rem 0;
+  background-color: aquamarine;
+  border: none;
+}
+
+.all {
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  text-transform: capitalize;
+  color: darkslategrey;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+.active {
+  border-color: darkslategrey;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+}
+
+.color {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: none;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 1;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.color:focus {
+  outline: none;
+}
+.form-shipping {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  text-transform: capitalize;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.clear {
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border: none;
+  background-color: #d63031;
+  color: antiquewhite;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  .fitlers {
+    /* background-color: antiquewhite; */
+    height: 600px;
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .filters {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .form-item {
+    margin-bottom: 0.5rem;
+  }
+  .clear {
+    display: block;
+    margin: 0 auto;
+  }
+  .form-under {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

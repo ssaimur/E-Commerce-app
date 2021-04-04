@@ -1,0 +1,41 @@
+.main-image img {
+  display: block;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+
+.image {
+  height: 600px;
+}
+
+.gallery {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+}
+
+.gallery img {
+  height: 100px;
+  cursor: pointer;
+}
+.img-active {
+  border: 2px solid olivedrab;
+}
+@media (max-width: 576px) {
+  .image {
+    height: 300px;
+  }
+  .gallery img {
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .image {
+    height: 500px;
+  }
+  .gallery img {
+    height: 75px;
+  }
+}

@@ -1,0 +1,26 @@
+.home-footer {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  text-align: center;
+}
+
+.home-footer span {
+  color: hsl(22, 31%, 52%);
+}
+.home-footer h5 {
+  color: #fff;
+  margin: 0.1rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.25;
+}
+
+@media (max-width: 776px) {
+  .home-footer {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+.grid-view {
+  display: grid;
+  gap: 2rem 1.5rem;
+}
+
+.grid-view .body {
+  height: 175px;
+}
+
+/* img {
+  height: 175px;
+} */
+
+@media (min-width: 756px) {
+  .grid-view {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1170px) {
+  .grid-view {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

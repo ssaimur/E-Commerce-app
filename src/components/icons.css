@@ -1,0 +1,54 @@
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-left: 20px;
+  color: #222;
+}
+
+.icon a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+}
+.icon button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.icon p {
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+.cart-item {
+  position: relative;
+}
+
+.cart-item svg {
+  display: flex;
+  align-items: baseline;
+}
+
+.item {
+  position: absolute;
+  background-color: #ab7b60;
+  top: -12px;
+  right: -12px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: antiquewhite;
+}

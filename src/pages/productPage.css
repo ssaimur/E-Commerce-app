@@ -1,0 +1,15 @@
+.product-page-body {
+  width: 90%;
+  margin: 4rem auto;
+}
+
+@media (min-width: 576px) {
+  .product-page-body {
+    width: 90%;
+    max-width: 1170px;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 3rem 1.5rem;
+  }
+}

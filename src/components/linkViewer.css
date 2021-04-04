@@ -1,0 +1,12 @@
+.link-viewer {
+  height: 80px;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+}
+.link-viewer h3 {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
