@@ -29,7 +29,7 @@
 .page-title {
   text-align: left;
 }
-.underline {
+.page-title .underline {
   margin-left: 0;
 }
 @media (min-width: 992px) {
